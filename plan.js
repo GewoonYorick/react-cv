@@ -6,10 +6,13 @@
 let example = {
     profile: {
         name: 'Matt Chapman',
+        blurb: 'Developer, Creative, and Adventurer',
+        image: './public/profile.jpg',
         email: 'matt@mattchapman.io',
         phone: '+64 27 628 2427',
-        image: './public/profile.jpg',
-        blurb: 'Developer, Creative, and Adventurer'
+        github: 'http://github.com/mttchpmn',
+        stackOverflow: '',
+        linkedIn: ''
     },
     stack: [
         {
@@ -21,16 +24,6 @@ let example = {
             name: 'Node',
             competency: 80,
             experienceYears: 3
-        }
-    ],
-    links: [
-        {
-            name: 'Github',
-            url: 'github.com/mttchpmn'
-        },
-        {
-            name: 'Reddit',
-            url: 'reddit.com/mttchpmn'
         }
     ],
     skills: [
