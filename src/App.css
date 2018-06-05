@@ -5,8 +5,19 @@ body {
 .pageContainer {
   background-color: #ffffff;
   border-radius: 2px;
-  margin: 3% 10% 5%;
-  padding: 65px 30px 50px;
-  min-height: 1024px;
+  padding: 100px 70px 50px;
+  margin-top: 30px;
   box-shadow: 0 0 0 0, 0 6px 12px rgba(34,34,34,0.1);
+}
+
+.colorBar {
+  background-color: #303030;
+  height: 60px;
+}
+
+.bioImage img {
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+  max-width: 300px;
 }
