@@ -10,6 +10,10 @@ body {
   box-shadow: 0 0 0 0, 0 6px 12px rgba(34,34,34,0.1);
 }
 
+.padding-med {
+  padding: 20px 15px 10px;
+}
+
 .colorBar {
   background-color: #303030;
   height: 60px;

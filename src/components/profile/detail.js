@@ -1,7 +1,6 @@
 import React from 'react';
 
 const Detail = ({data}) => {
-    console.log(data);
     const contactDetails = data.contact.map(contact => {
         return (
             <p>{contact.value}</p>
