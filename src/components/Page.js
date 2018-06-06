@@ -1,5 +1,7 @@
 import React, { Component} from 'react';
 import Profile from './Profile';
+import Content from '../Content';
+
 
 class Page extends Component {
     constructor(props) {
@@ -9,7 +11,7 @@ class Page extends Component {
     render() {
         return(
             <div className="pageContainer grid-container">
-                <Profile />
+                <Profile data={Content.profile}/>
             </div>
         );
     }

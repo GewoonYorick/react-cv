@@ -1,13 +1,19 @@
 import React from 'react';
 
-const Detail = props => {
+const Detail = ({data}) => {
+    console.log(data);
+    const contactDetails = data.contact.map(contact => {
+        return (
+            <p>{contact.value}</p>
+            );
+        });
+
     return(
         <div className="detail text-right">
-            <h1>Matt Chapman</h1>
-            <p>Developer. Creative. Adventurer.</p>
-            <p>Email: matt@mattchapman.io</p>
-            <p>Cell: +64 27 628 2427</p>
-            <p>Website: mattchapman.io</p>
+            <h1>{data.name}</h1>
+            <p>{data.tag}</p>
+            <p>{data.bio}</p>
+            {contactDetails}
         </div>
     );
 }
