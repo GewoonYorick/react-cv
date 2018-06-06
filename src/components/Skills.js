@@ -9,6 +9,7 @@ const Skills = ({data}) => {
 
     return(
         <div className="Skills">
+            <h2>Skills</h2>
             <ul>
                 {skillsList}
             </ul>

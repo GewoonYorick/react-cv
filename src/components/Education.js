@@ -19,6 +19,7 @@ const Education = ({data}) => {
     });
     return(
         <div className="Education">
+            <h2>Education</h2>
             {educationList}
         </div>
     );

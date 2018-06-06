@@ -20,6 +20,7 @@ const Experience = ({data}) => {
     });
     return(
         <div className="Experience">
+            <h2>Experience</h2>
             {experienceList}
         </div>
     );

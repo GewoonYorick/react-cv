@@ -18,6 +18,7 @@ const Stack = ({data}) => {
     });
     return(
         <div className="Stack">
+            <h2>Tech Stack</h2>
             {stackList}
         </div>
     );
