@@ -19,7 +19,7 @@ const Education = ({data}) => {
     });
     return(
         <div className="Education">
-            <h2>Education</h2>
+            <h2 className="blockHeader">Education</h2>
             {educationList}
         </div>
     );

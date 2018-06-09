@@ -9,7 +9,7 @@ const Skills = ({data}) => {
 
     return(
         <div className="Skills">
-            <h2>Skills</h2>
+            <h2 className="blockHeader">Skills</h2>
             <ul>
                 {skillsList}
             </ul>

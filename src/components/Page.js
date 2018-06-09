@@ -8,6 +8,11 @@ import Stack from "./Stack";
 import Skills from "./Skills";
 import Education from "./Education";
 import Experience from "./Experience";
+import BioImage from './BioImage';
+import Detail from './profile/detail';
+import Links from './Links';
+import HeaderTag from './HeaderTag';
+import Bio from './Bio';
 
 
 class Page extends Component {
@@ -17,21 +22,23 @@ class Page extends Component {
 
     render() {
         return(
-            <div className="pageContainer grid-container">
-                <Profile data={Content.profile}/>
-                <hr />
-                <div className="skillsStack grid-x">
-                    <div className="stackCell cell small-6 padding-med">
+            <div className="pageContainer grid-container grid-wrapper">
+                <div className="sidebar">
+                    <BioImage data={Content.profile.image} />
+                    <Links data={Content.profile.contact} />
+                    <div className="stackInterests">
                         <Stack data={Content.stack} />
                     </div>
-                    <div className="skillsCell cell small-6 padding-med">
+                </div>
+                <div className="main">
+                    <HeaderTag data={Content.profile} />
+                    <Bio bioContent={Content.profile.bio} />
+                    <div className="main-content">
                         <Skills data={Content.skills} />
+                        <Education data={Content.education} />
+                        <Experience data={Content.experience} />                        
                     </div>
                 </div>
-                <hr />
-                <Education data={Content.education} />
-                <hr />
-                <Experience data={Content.experience} />
             </div>
         );
     }

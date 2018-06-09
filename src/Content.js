@@ -2,7 +2,7 @@ const content = {
     profile: {
         name: 'Matt Chapman',
         tag: 'developer // creative // adventurer',
-        bio: 'I am a creative and driven developer with a passion to learn and a thirst for knowledge.',
+        bio: 'I am a driven, creative-minded developer from Queenstown, NZ.  I have a hunger for knowledge and a passion for learning.  I constantly strive to find the most efficient way of achieving things, and always seek to follow  best-practice and industry standards.  I have a deep love for building projects that are as clean and efficient as they are modular and readable.  When not behind a computer I will often  be found at the controls of an aircraft or hiking in the mountains.',
         image: 'https://avatars1.githubusercontent.com/u/26560482',
         contact: [
             {
