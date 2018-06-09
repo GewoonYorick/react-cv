@@ -1,4 +1,5 @@
 import React from 'react';
+import SkillBar from './SkillBar';
 
 const Stack = ({data}) => {
     const stackList = data.map(stack => {
@@ -6,15 +7,17 @@ const Stack = ({data}) => {
             <div className={stack.name}>
                 <p className="text-left">{stack.name}</p>
                 <div className="competencyBar">
-                        <p className="text-left">Competency: {stack.competencyLevel}</p>                    
+                    <SkillBar width={stack.competencyLevel}/>                  
                 </div>                    
             </div>
         );
     });
     return(
         <div className="Stack">
-            <h2>Tech Stack</h2>
-            {stackList}
+            <h2 className="text-center">Tech Stack</h2>
+            <div className="stackItems">
+                {stackList}                
+            </div>
         </div>
     );
 }

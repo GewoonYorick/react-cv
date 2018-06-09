@@ -3,16 +3,15 @@ import React, { Component} from 'react';
 // Import the data for the CV
 import Content from '../Content';
 
-import Profile from './Profile';
+import HeaderTag from './HeaderTag';
+import Bio from './Bio';
+import BioImage from './BioImage';
+import Links from './Links';
 import Stack from "./Stack";
 import Skills from "./Skills";
 import Education from "./Education";
 import Experience from "./Experience";
-import BioImage from './BioImage';
-import Detail from './profile/detail';
-import Links from './Links';
-import HeaderTag from './HeaderTag';
-import Bio from './Bio';
+import Interests from './Interests';
 
 
 class Page extends Component {
@@ -28,6 +27,7 @@ class Page extends Component {
                     <Links data={Content.profile.contact} />
                     <div className="stackInterests">
                         <Stack data={Content.stack} />
+                        <Interests data={Content.interests} />
                     </div>
                 </div>
                 <div className="main">

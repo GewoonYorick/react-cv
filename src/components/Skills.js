@@ -8,7 +8,7 @@ const Skills = ({data}) => {
     });
 
     return(
-        <div className="Skills">
+        <div className="skills">
             <h2 className="blockHeader">Skills</h2>
             <ul>
                 {skillsList}
