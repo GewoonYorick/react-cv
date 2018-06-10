@@ -117,10 +117,6 @@ body {
   padding-left: 40px;
 }
 
-.stackItems {
-  padding: 20px 10px;
-}
-
 .skillBarBorder {
   border: 5px solid #2c3e50;
   height: 20px;
@@ -170,6 +166,29 @@ LINKS ----------------------------------------
 }
 
 /*
+STACK ----------------------------------------
+*/
+
+.stack .stackItem {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 10px;
+}
+
+.stack .stackLabel {
+  margin-bottom: 0px;
+  margin-top: 15px;
+  padding-left: 20px;
+  font-size: 22px;
+  color: #2c3e50;
+}
+
+.stack .iconLabel {
+  display: flex;
+  justify-content: flex-start;
+}
+
+/*
 INTERESTS ----------------------------------------
 */
 
@@ -177,4 +196,10 @@ INTERESTS ----------------------------------------
   text-align: center;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.referencesFooter {
+  grid-column: span 12;
+  text-align: center;
+  color: #909090;
 }

@@ -39,6 +39,7 @@ class Page extends Component {
                         <Experience data={Content.experience} />                        
                     </div>
                 </div>
+            <p className="referencesFooter">Referees will be provided on request</p>
             </div>
         );
     }
