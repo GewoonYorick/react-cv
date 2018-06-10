@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Interests = props => {
-    const interestList = props.data.map(interest => {
+    const interestsList = props.data.map(interest => {
         return (
             <span>{interest}, </span>
         );
@@ -9,7 +9,7 @@ const Interests = props => {
     return(
         <div className="interests">
             <h2 className="text-center">Interests</h2>
-            <p>{interestList}</p>
+            <p className="interestsList">{interestsList}</p>
         </div>
     );
 }
