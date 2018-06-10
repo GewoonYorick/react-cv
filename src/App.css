@@ -169,6 +169,10 @@ LINKS ----------------------------------------
 STACK ----------------------------------------
 */
 
+.stack h2 {
+  color: #2c3e50;
+}
+
 .stack .stackItem {
   padding-left: 15px;
   padding-right: 15px;
@@ -183,14 +187,26 @@ STACK ----------------------------------------
   color: #2c3e50;
 }
 
+.stack .stackIcon {
+  width: 100%;
+  height: 100%;
+  max-width: 40px;
+}
+
 .stack .iconLabel {
   display: flex;
   justify-content: flex-start;
+  align-items: center;
 }
 
 /*
 INTERESTS ----------------------------------------
 */
+
+.interests h2 {
+  margin-top: 20px;
+  color: #2c3e50;
+}
 
 .interests .interestsList {
   text-align: center;

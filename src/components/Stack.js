@@ -2,7 +2,7 @@ import React from 'react';
 import SkillBar from './SkillBar';
 
 import javascript from './stack/javascript.svg';
-import node from './stack/node.svg';
+import node from './stack/node.png';
 import python from './stack/python.svg';
 import html from './stack/html.svg';
 import css from './stack/css.svg';
