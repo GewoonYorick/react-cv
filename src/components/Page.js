@@ -8,10 +8,10 @@ import Bio from './Bio';
 import BioImage from './BioImage';
 import Links from './Links';
 import Stack from "./Stack";
+import Interests from './Interests';
 import Skills from "./Skills";
 import Education from "./Education";
 import Experience from "./Experience";
-import Interests from './Interests';
 
 
 class Page extends Component {

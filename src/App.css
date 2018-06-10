@@ -101,6 +101,17 @@ body {
   color: #fff;
 }
 
+.header3 {
+  font-size: 26px;
+  padding: 3px;
+  margin-bottom: 0px;
+}
+
+.header4 {
+  font-size: 18px;
+  padding: 3px;
+}
+
 .skills ul {
   padding-left: 40px;
 }
@@ -113,4 +124,22 @@ body {
   border: 5px solid #2c3e50;
   height: 20px;
   /* margin: 5px 20px; */
+}
+
+.educationItems,
+.experienceItems {
+  /* display: grid; */
+  /* grid-template-columns: repeat(12, 1fr); */
+  padding-left: 40px;
+}
+
+.educationItem .flexLine,
+.experienceItem .flexLine {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.educationItem .experienceYears {
+  padding-top: 10px;
 }
